@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC1D624D-C549-2362-D8BF-A5CA936FB25F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.5.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CSharp">
+      <HintPath>Assets\TNet\RuntimeCode\Plugins\Mono.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\DebugHOST.cs" />
+    <Compile Include="Assets\Scripts\Lobby\SaveHero.cs" />
+    <Compile Include="Assets\Scripts\Lobby\lobbyAudio.cs" />
+    <Compile Include="Assets\Scripts\Lobby\lobbyBTN.cs" />
+    <Compile Include="Assets\Scripts\Lobby\lobbyCreateHero.cs" />
+    <Compile Include="Assets\Scripts\MMO\DataCube.cs" />
+    <Compile Include="Assets\Scripts\MMO\Family.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\Cafe\ct_cafe_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\ETCenter\ct_etcenter_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\LoveHotel\ct_lovehotel_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\Park\ct_park_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\SHCenter\ct_shcenter_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\ct_city_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\city\ct_metro_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\daycycle_loc.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\Bathroom_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\BrotherRoom_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\Kitchen_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\Longue_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\Room_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\home\SisterRoom_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\su_road_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\su_shop_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\su_station_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\su_street_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\LOCATIONS\suburb\su_train_LOC.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\MMOstart.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\PLACES\City_place.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\PLACES\Home_place.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\PLACES\Suburb_place.cs" />
+    <Compile Include="Assets\Scripts\MMO\Game\QUESTS\su_trainwait_QS.cs" />
+    <Compile Include="Assets\Scripts\MMO\Localisation\LangInfoPan.cs" />
+    <Compile Include="Assets\Scripts\MMO\Localisation\LangLobby.cs" />
+    <Compile Include="Assets\Scripts\MMO\Localisation\LangMAIN.cs" />
+    <Compile Include="Assets\Scripts\MMO\Localisation\LangSettings.cs" />
+    <Compile Include="Assets\Scripts\MMO\MMOsettings.cs" />
+    <Compile Include="Assets\Scripts\MMO\Settings.cs" />
+    <Compile Include="Assets\Scripts\MMO\SexData.cs" />
+    <Compile Include="Assets\Scripts\MMO\StartMenu\MMOcreate2.cs" />
+    <Compile Include="Assets\Scripts\MMO\StartMenu\MMOstartMenu.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\ClothEquip.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\GameAudio.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MMOChat.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MMOinformer.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MMOplayerInfoBTN.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MMOplayerlist.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MMOshowplayers.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\MainTime.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Meetings\MeetingsROOM.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Meetings\MeetingsSETTINGS.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Phone\Phone.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Quest\QuestBTN.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Quest\QuestPAN.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\RightPanel\MMOinfoPanel.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Team\MMOaboutOtherPlayer.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Team\MMOaddGuest.cs" />
+    <Compile Include="Assets\Scripts\MMO\Systems\Team\MMOteamFIND.cs" />
+    <Compile Include="Assets\Scripts\MMO\UI\AboutGame.cs" />
+    <Compile Include="Assets\Scripts\MMO\UI\CrewAboutINF.cs" />
+    <Compile Include="Assets\Scripts\MMO\UI\GroupAboutINF.cs" />
+    <Compile Include="Assets\Scripts\MMO\UI\Train_scroll.cs" />
+    <Compile Include="Assets\Scripts\MMO\UI\UIactive.cs" />
+    <Compile Include="Assets\TNet\Client\BinaryExtensions.cs" />
+    <Compile Include="Assets\TNet\Client\TNAutoCreate.cs" />
+    <Compile Include="Assets\TNet\Client\TNAutoJoin.cs" />
+    <Compile Include="Assets\TNet\Client\TNAutoSync.cs" />
+    <Compile Include="Assets\TNet\Client\TNBehaviour.cs" />
+    <Compile Include="Assets\TNet\Client\TNEventReceiver.cs" />
+    <Compile Include="Assets\TNet\Client\TNEvents.cs" />
+    <Compile Include="Assets\TNet\Client\TNGameClient.cs" />
+    <Compile Include="Assets\TNet\Client\TNLobbyClient.cs" />
+    <Compile Include="Assets\TNet\Client\TNManager.cs" />
+    <Compile Include="Assets\TNet\Client\TNObject.cs" />
+    <Compile Include="Assets\TNet\Client\TNRFC.cs" />
+    <Compile Include="Assets\TNet\Client\TNServerInstance.cs" />
+    <Compile Include="Assets\TNet\Client\TNSyncRigidbody.cs" />
+    <Compile Include="Assets\TNet\Client\TNTarget.cs" />
+    <Compile Include="Assets\TNet\Client\TNTcpLobbyClient.cs" />
+    <Compile Include="Assets\TNet\Client\TNUdpLobbyClient.cs" />
+    <Compile Include="Assets\TNet\Client\TNUnitySerializers.cs" />
+    <Compile Include="Assets\TNet\Client\TNUnityTools.cs" />
+    <Compile Include="Assets\TNet\Common\DataNode.cs" />
+    <Compile Include="Assets\TNet\Common\TNBuffer.cs" />
+    <Compile Include="Assets\TNet\Common\TNDatagram.cs" />
+    <Compile Include="Assets\TNet\Common\TNFieldOrProperty.cs" />
+    <Compile Include="Assets\TNet\Common\TNList.cs" />
+    <Compile Include="Assets\TNet\Common\TNPacket.cs" />
+    <Compile Include="Assets\TNet\Common\TNPlayer.cs" />
+    <Compile Include="Assets\TNet\Common\TNSerializer.cs" />
+    <Compile Include="Assets\TNet\Common\TNServerList.cs" />
+    <Compile Include="Assets\TNet\Common\TNTcpProtocol.cs" />
+    <Compile Include="Assets\TNet\Common\TNTools.cs" />
+    <Compile Include="Assets\TNet\Common\TNUPnP.cs" />
+    <Compile Include="Assets\TNet\Common\TNUdpProtocol.cs" />
+    <Compile Include="Assets\TNet\Common\TypeExtensions.cs" />
+    <Compile Include="Assets\TNet\Examples\Scenes\Channel\GameManager2.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ColoredObject.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\DraggedObject.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleCar.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleCarGUI.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleCarNoNetworking.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleChaseCamera.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleChaseCameraTarget.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleChat.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleCreate.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleDestroy.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleError.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleMenu.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExamplePlayerAvatar.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ExampleRegion.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\ImproveLatency.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\MoveSpinObject.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\SpringTransform.cs" />
+    <Compile Include="Assets\TNet\Examples\Scripts\TouchHandler.cs" />
+    <Compile Include="Assets\TNet\LZMA\CRC.cs" />
+    <Compile Include="Assets\TNet\LZMA\ICoder.cs" />
+    <Compile Include="Assets\TNet\LZMA\IMatchFinder.cs" />
+    <Compile Include="Assets\TNet\LZMA\LZMA.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzBinTree.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzInWindow.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzOutWindow.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzmaBase.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzmaDecoder.cs" />
+    <Compile Include="Assets\TNet\LZMA\LzmaEncoder.cs" />
+    <Compile Include="Assets\TNet\LZMA\RangeCoder.cs" />
+    <Compile Include="Assets\TNet\LZMA\RangeCoderBit.cs" />
+    <Compile Include="Assets\TNet\LZMA\RangeCoderBitTree.cs" />
+    <Compile Include="Assets\TNet\RuntimeCode\RuntimeBehaviour.cs" />
+    <Compile Include="Assets\TNet\RuntimeCode\RuntimeCode.cs" />
+    <Compile Include="Assets\TNet\Server\TNChannel.cs" />
+    <Compile Include="Assets\TNet\Server\TNFileServer.cs" />
+    <Compile Include="Assets\TNet\Server\TNGameServer.cs" />
+    <Compile Include="Assets\TNet\Server\TNLobbyLink.cs" />
+    <Compile Include="Assets\TNet\Server\TNLobbyServer.cs" />
+    <Compile Include="Assets\TNet\Server\TNTcpLobbyLink.cs" />
+    <Compile Include="Assets\TNet\Server\TNTcpLobbyServer.cs" />
+    <Compile Include="Assets\TNet\Server\TNTcpPlayer.cs" />
+    <Compile Include="Assets\TNet\Server\TNUdpLobbyLink.cs" />
+    <Compile Include="Assets\TNet\Server\TNUdpLobbyServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TNet\ReadMe - 3.0.1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
